@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Kittu</title>
+<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<!-- Custom Theme files -->
+
+
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+    
+<style>
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+</style>
+ <!-- start-smoth-scrolling -->
+</head>
+	<body style="background:url(images/index1.svg); height:100vh; background-position:center; background-size:cover;background-attachment: fixed;">
+
+
+
+                <div class="container">
+                        <hr class="my-4">
+                        <div class="button-group filters-button-group row center-text">
+                        <button class="button is-checked" data-filter="*">show all</button>
+                        <button class="button" data-filter=".metal">metal</button>
+                        <button class="button" data-filter=".transition">transition</button>
+                        <button class="button" data-filter=".alkali, .alkaline-earth">alkali and alkaline-earth</button>
+                        <button class="button" data-filter=":not(.transition)">not transition</button>
+                        <button class="button" data-filter=".metal:not(.transition)">metal but not transition</button>
+                        <button class="button" data-filter="numberGreaterThan50">number > 50</button>
+                        <button class="button" data-filter="ium">name ends with &ndash;ium</button>
+                 </div>
+                 <hr class="my-4">
+                </div>
+                <div class="container">      
+                        
+                            <div class="grid">
+                                <a href="https://github.com" target="_blank">
+                                <div class="grid-item transition metal" data-category="transition">
+                                    <div class="card card_style ">
+                                        <blockquote class="blockquote mb-0 card-body">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Integer posuere erat a ante.</p>
+                                            <footer class="blockquote-footer">
+                                            <small class="text-muted">
+                                                Someone famous in <cite title="Source Title">Source Title</cite>
+                                            </small>
+                                            </footer>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                                </a>
+                                <div class="grid-item ">
+                                    <div class="card card_style card_style text-white bg-secondary mb-3" style="max-width: 18rem;">
+                                        <div class="card-header">Header</div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Secondary card title</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="grid-item">
+                                    <div class="card card_style card_style">
+                                        <img class="card-img-top img-fluid" src="img/tensorflow.png" alt="card card_style image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This card has supporting text <br>below as a natural lead-in to additional content.</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-item">
+                                    <div class="card card_style" style="width: 18rem;">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            <a href="#" class="card-link">Card link</a>
+                                            <a href="#" class="card-link">Another link</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="grid-item">
+                                    <div class="card card_style text-white bg-secondary mb-3" style="max-width: 18rem;">
+                                        <div class="card-header">Header</div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Secondary card title</h5>
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-item">
+                                        <div class="card card_style">
+                                            <blockquote class="blockquote mb-0 card-body">
+                                                <p>Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                                <footer class="blockquote-footer">
+                                                <small class="text-muted">
+                                                    Someone famous in <cite title="Source Title">Source Title</cite>
+                                                </small>
+                                                </footer>
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                                    <div class="grid-item">
+                                        <div class="card card_style">
+                                            <img class="card-img-top" src="..." alt="card card_style image cap">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="grid-item">
+                                        <div class="card card_style" style="width: 18rem;">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card title</h5>
+                                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                <a href="#" class="card-link">Card link</a>
+                                                <a href="#" class="card-link">Another link</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                        
+                                    
+                                    <div class="grid-item">
+                                        <div class="card card_style text-white bg-secondary mb-3" style="max-width: 18rem;">
+                                            <div class="card-header">Header</div>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Secondary card title</h5>
+                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="grid-item">
+                                            <div class="card card_style p-3">
+                                                <blockquote class="blockquote mb-0 card-body">
+                                                    <p>Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                                    <footer class="blockquote-footer">
+                                                    <small class="text-muted">
+                                                        Someone famous in <cite title="Source Title">Source Title</cite>
+                                                    </small>
+                                                    </footer>
+                                                </blockquote>
+                                            </div>
+                                        </div>
+                                        <div class="grid-item">
+                                            <div class="card card_style">
+                                                <img class="card-img-top" src="..." alt="card card_style image cap">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Card title</h5>
+                                                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="grid-item">
+                                            <div class="card card_style" style="width: 18rem;">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Card title</h5>
+                                                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                    <a href="#" class="card-link">Card link</a>
+                                                    <a href="#" class="card-link">Another link</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        
+                                        <div class="grid-item">
+                                            <div class="card card_style text-white bg-secondary mb-3" style="max-width: 18rem;">
+                                                <div class="card-header">Header</div>
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Secondary card title</h5>
+                                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="grid-item">
+                                                <div class="card card_style p-3">
+                                                    <blockquote class="blockquote mb-0 card-body">
+                                                        <p>Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                                        <footer class="blockquote-footer">
+                                                        <small class="text-muted">
+                                                            Someone famous in <cite title="Source Title">Source Title</cite>
+                                                        </small>
+                                                        </footer>
+                                                    </blockquote>
+                                                </div>
+                                            </div>
+                                            <div class="grid-item">
+                                                <div class="card card_style">
+                                                    <img class="card-img-top" src="..." alt="card card_style image cap">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Card title</h5>
+                                                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="grid-item">
+                                                <div class="card card_style" style="width: 18rem;">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Card title</h5>
+                                                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                        <a href="#" class="card-link">Card link</a>
+                                                        <a href="#" class="card-link">Another link</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="grid-item">
+                                                <div class="card card_style" style="width: 20rem;">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Card title</h5>
+                                                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                        <a href="#" class="card-link">Card link</a>
+                                                        <a href="#" class="card-link">Another link</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="grid-item">
+                                                <div class="card card_style text-white bg-primary mb-3" style="max-width: 18rem;">
+                                                    <div class="card-header">Header</div>
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Secondary card title</h5>
+                                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                        
+                                            <div class="grid-item">
+                                                <div class="card card_style text-white bg-success mb-3" style="max-width: 18rem;">
+                                                    <div class="card-header">Header</div>
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Secondary card title</h5>
+                                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="grid-item">
+                                                <div class="card card_style text-white bg-warning mb-3" style="max-width: 18rem;">
+                                                    <div class="card-header">Header</div>
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Secondary card title</h5>
+                                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                            
+                            </div>
+                        <!-- //footer -->
+                        </div>
+                
+                
+            </div>
+                      
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+        <script src="https://unpkg.com/isotope-packery@2/packery-mode.pkgd.js"></script>
+    
+            <script>
+
+
+            var $grid = $('.grid').isotope({
+                      layoutMode: 'packery',
+                      itemSelector: '.grid-item'
+                    });
+                    
+                    var filterFns = {
+                      // show if number is greater than 50
+                      numberGreaterThan50: function() {
+                        var number = $(this).find('.number').text();
+                        return parseInt( number, 10 ) > 50;
+                      },
+                      // show if name ends with -ium
+                      ium: function() {
+                        var name = $(this).find('.name').text();
+                        return name.match( /ium$/ );
+                      }
+                    };
+                    // bind filter button click
+                    $('.filters-button-group').on( 'click', 'button', function() {
+                      var filterValue = $( this ).attr('data-filter');
+                      // use filterFn if matches value
+                      filterValue = filterFns[ filterValue ] || filterValue;
+                      $grid.isotope({ filter: filterValue });
+                    });
+                    // change is-checked class on buttons
+                    $('.button-group').each( function( i, buttonGroup ) {
+                      var $buttonGroup = $( buttonGroup );
+                      $buttonGroup.on( 'click', 'button', function() {
+                        $buttonGroup.find('.is-checked').removeClass('is-checked');
+                        $( this ).addClass('is-checked');
+                      });
+                    });
+                    
+           </script>
+
+<script type="text/javascript">
+    
+</script>
+
+
+
+	</body>
+</html>
